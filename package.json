@@ -23,7 +23,8 @@
     "weather-js": "^2.0.0"
   },
   "engines": {
-    "node": "12.x"
+    "node": "16.17.0",
+    "npm": "8.15.0"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/hello-express"
