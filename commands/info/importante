@@ -1,0 +1,22 @@
+const Discord = require("discord.js");
+const { MessageEmbed } = require("discord.js");
+const { Color } = require("../../config.js");
+
+module.exports = {
+  name: "importante",
+  aliases: [],
+  description: "hola!",
+  usage: "hola",
+  run: async (client, message, args) => {
+
+    if(message.channel.id !== '1016402710309916777') return message.reply("No puedes usar este comando en un canal que no sea <#1016402710309916777>")
+
+    const embed = new Discord.MessageEmbed()
+    .setTitle("Hola soy GracieBot")
+    .setDescription("Gracias por usarme")
+
+    message.reply({ embeds: [embed] })
+  
+  }
+
+}  
